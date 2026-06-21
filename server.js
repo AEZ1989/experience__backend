@@ -15,7 +15,7 @@ CREATE TABLE IF NOT EXISTS commentaires (
 `);//creation d'un table sqlite3
 
 
-const commentairesRoutes = require("./routes/commentairesRoutes");
+const commentairesRoutes = require("./Routes/commentairesRoutes");
 app.use("/commentaires", commentairesRoutes);
 
 
